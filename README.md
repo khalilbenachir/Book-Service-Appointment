@@ -1,22 +1,21 @@
-Chatbot:Book service appointment
+# book_Appointment
+### A BotUI app connected to DialogFlow.
 
-A BotBook app connected to Dialogflow.
 
-FEEL FREE TO MAKE PULL REQUESTS
-How to Use?
-You can simply chose to Build it yourself from scratch using this Tutorial.
+###### FEEL FREE TO MAKE PULL REQUESTS
 
-OR...
+##### How to Use?
 
 Follow these steps below
 
-Go to DialogFlow and get a key!
-Clone the Repo
-Place your Key in config/api.js
-npm install
-npm start
-Open Browser , go to "localhost:3000"
-Edit the Chat Flow from public/javascripts/convo.js
+1. Go to [DialogFlow] and get a key!
+2. Clone the Repo
+3. Place your Key in config/api.js
+4. `npm install`
+5. `npm start`
+6. Open Browser , go to "localhost:3000"
 
-UI Design by BotUI. 
-NLP Used API.AI.
+  Edit the Chat Flow from public/javascripts/convo.js
+
+UI Design by [BotUI](https://github.com/moinism/botui).
+NLP Used [API.AI](https://www.api.ai).
