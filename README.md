@@ -17,5 +17,4 @@ Follow these steps below
 
   Edit the Chat Flow from public/javascripts/convo.js
 
-UI Design by [BotUI](https://github.com/moinism/botui).
-NLP Used [API.AI](https://www.api.ai).
+NLP Used [DialogFlow](https://dialogflow.com/).
