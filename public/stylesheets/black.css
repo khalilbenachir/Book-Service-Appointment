@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+iframe {
+  width: 100%;
+}
+
+.botui-app-container {
+  margin-top: 40px;
+  width: 410px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botui-app-container .botui-title{
+  font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background-color: #F1C40F;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    
+
+}
+
+.botui-container {
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+  padding: 0px 20px;
+  background-color: #f5f5f5;
+
+}
+.botui-message-content {
+  color: #FFFFFF;
+  background-color: #F1C40F;
+}
+
+.botui-message-content.human {
+  background-color: #3498DB;
+}
+
+.botui-actions-text-input {
+  color: black;
+  border-bottom: 1px solid #3498DB;
+  margin: 0;
+}
+
+.botui-actions-buttons-button {
+  line-height: 1 !important;
+  background-color: #3498DB;
+}
+
+.botui-message-content-link {
+  color: #F1C40F;
+}
+
+.botui-messages-container {
+  padding: 30px 0px;
+}
